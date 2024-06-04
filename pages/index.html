@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -12,17 +15,26 @@
         <p>Sistema de Gerenciamento De Estoque</p>
     </header>
     <hr>
-    <h3>Bem Vindo a Simple Store</h3>
-    <h4>O mehor sistema para sua loja</h4>
-    <div class="box">
-        <label for="nome">Usuário</label><br>
-        <input type="text" name="user" class="usuario" maxlength="4"><br>
-        <label for="senha">Senha</label><br>
-        <input type="password" name="password" class="senha">
-        <br><br>
-        <a href="index3.html">Não possui login? Cadastre-se!</a>
-        <br><br>
-        <input type="button" name="log" class="login" value="Login">
-    </div>
+    <main>
+        <section class="details">
+            <h3>Bem Vindo A Simple Store</h3>
+            <p>Primeira vez no sistema? Cadastre-se e crie seu usuário. <br> É simples, rápido e seguro.</p>
+            <a href="index3.html">Cadastrar</a>
+        </section>
+        <section class="userLogin">
+            <p>JÁ SOU USUÁRIO DA</p>
+            <h2>Simple Store</h2>
+            <div class="box">
+                <form>
+                    <label for="nome">Usuário</label><br>
+                    <input type="text" name="user" class="usuario" maxlength="4"><br>
+                    <label for="senha">Senha</label><br>
+                    <input type="password" name="password" class="senha">
+                    <br><br>
+                    <a href="index2.html" class="logar"><input type="button" name="log" class="login" value="Login"></a>
+                </form>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
