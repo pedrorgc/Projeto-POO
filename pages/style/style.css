@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    background-image: linear-gradient(to right, black, #19494b , black);
+}
+
+header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    text-align: center;
+}
+
+.box{
+    border-radius: 10px;
+    width: 300px;
+    width: 300px;
+    background-color: rgba(127, 127, 127, 0.997);
+    text-align: center;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.usuario, .senha{
+    border-radius: 10px;
+}
