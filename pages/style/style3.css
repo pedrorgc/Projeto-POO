@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+header{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400px;
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    text-align: center;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400px;
+    color: aliceblue;
+    background-image: linear-gradient(to right, black, #193536 , black);
+}
+
+section{
+    text-align: center;
+}
+
+a{
+    padding: 5px;
+    color: aliceblue;
+}
+
+.nome{
+    margin: 2px;
+    border-radius: 5px;
+    background-color: rgb(58, 58, 58);
+    color: aliceblue;
+}
+
+.email{
+    margin: 2px;
+    border-radius: 5px;
+    background-color: rgb(58, 58, 58);
+    color: aliceblue;
+}
+
+.usuario{
+    margin: 2px;
+    border-radius: 5px;
+    background-color: rgb(58, 58, 58);
+    color: aliceblue;
+}
+
+.senha{
+    margin: 2px;
+    border-radius: 5px;
+    background-color: rgb(58, 58, 58);
+    color: aliceblue;
+}
+
+.cadastrar{
+    margin: 2px;
+    border-radius: 5px;
+    background-color: rgb(58, 58, 58);
+    color: aliceblue;
+}
