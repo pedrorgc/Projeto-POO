@@ -13,16 +13,20 @@ header{
     font-family: 'Poppins', sans-serif;
     font-weight: 400px;
     color: rgb(255, 255, 255);
-    padding: 15px;
+    padding: 12px;
     text-align: center;
 }
 
 .details{
+    margin-left: 400px;
+    float: left;
     height: 20px;
+    padding-top: 50px;
 }
 
 .userLogin{
     float: right;
+    margin-right: 300px;
 }
 
 .box{
@@ -47,4 +51,12 @@ header{
     border-radius: 15px;
     background-color: #454545;
     color: rgb(194, 194, 194);
+}
+
+.cadast{
+    color: rgb(255, 255, 255);
+}
+
+hr{
+    width: 1000px;
 }
