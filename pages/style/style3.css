@@ -55,8 +55,17 @@ a{
 }
 
 .cadastrar{
-    margin: 2px;
+    font-family: 'Poppins' sans-serif;
+    width: 250px;
+    height: 30px;
     border-radius: 5px;
-    background-color: rgb(58, 58, 58);
-    color: aliceblue;
+    background-color: #454545;
+    color: rgb(194, 194, 194);
+    cursor: pointer;
+    box-shadow: 2px 2px 0px #193536;
+    transition: transform 200ms ease-in-out;
+}   
+
+.cadastrar:hover{
+    transform: scale(1.05);
 }
