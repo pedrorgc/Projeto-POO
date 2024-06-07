@@ -17,28 +17,34 @@
     <main>
         <section>
             <h3>Crie seu cadastro abaixo</h3>
-            <form>
-                <label for="nome">Nome:</label>
-                <br>
-                <input type="text" class="nome">
-                <br>
-                <label for="email">Email:</label>
-                <br>
-                <input type="email" class="email">
-                <br>
-                <label for="usuario">Usuário:</label>
-                <br>
-                <input type="text" class="usuario" maxlength="4">
-                <br>
-                <label for="senha">Senha:</label>
-                <br>
-                <input type="password" class="senha">
-                <br><br>
-                <input type="submit" value="Cadastrar" class="cadastrar">
-            </form>
+            <div class="container">
+                <div class="box">
+                    <form>
+                        <label for="nome">Nome:</label>
+                        <br>
+                        <input type="text" id="nome">
+                        <br>
+                        <label for="email">Email:</label>
+                        <br>
+                        <input type="email" id="email">
+                        <br>
+                        <label for="usuario">Usuário:</label>
+                        <br>
+                        <input type="text" id="usuario" maxlength="4">
+                        <br>
+                        <label for="senha">Senha:</label>
+                        <br>
+                        <input type="password" id="senha">
+                        <br><br>
+                        <input type="submit" value="Cadastrar" id="cadastrar">
+                    </form>
+                </div>
+            </div>
             <br>
             <a href="index.html">Voltar para página de login</a>
         </section>
     </main>
+
+    <script src="script/users.js"></script>
 </body>
 </html>
