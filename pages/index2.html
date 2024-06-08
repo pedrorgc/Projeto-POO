@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estoque</title>
+    <title>Cadastra-se</title>
     <link rel="stylesheet" href="style/style2.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,7 +11,44 @@
 </head>
 <body>
     <header>
-        <h1>Gerenciamento De Estoque</h1>
+        <h1>Game Store Manager</h1>
+        <p>Gerenciamento De Estoque</p>
     </header>
+    <hr size="1">
+    <main>
+        <section>
+            <h3>Gerencie seus produtos abaixo</h3>
+            <div class="container">
+                <div class="box">
+                    <form>
+                        <label for="produto">Produto:</label>
+                        <br>
+                        <input type="text" id="produto">
+                        <br>
+                        <label for="plataforma">Plataforma:</label>
+                        <br>
+                        <input type="text" id="plataforma">
+                        <br>
+                        <label for="quantidade">Quantidade:</label>
+                        <br>
+                        <input type="number" id="quantidade">
+                        <br>
+                        <label for="valor">Valor:</label>
+                        <br>
+                        <input type="number" id="valor">
+                        <br><br>
+                        <input type="submit" value="Cadastrar" id="cadastrar">
+                        <br><br>
+                        <input type="reset" value="Limpar" id="limpaForm">
+                        <br><br>
+                        <input type="button" value="Estoque" id="verEstoque">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    
+    <script src="script/cadastro.js"></script>
 </body>
 </html>
