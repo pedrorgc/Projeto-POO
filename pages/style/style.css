@@ -49,7 +49,7 @@ header{
 }
 
 
-#usuario, #senha{
+#loginUsuario, #loginSenha{
     width: 250px;
     height: 30px;
     margin: 10px auto;

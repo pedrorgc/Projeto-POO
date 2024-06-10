@@ -40,7 +40,7 @@ a{
 }
 
 
-#nome, #email, #usuario, #senha{
+#nome, #email, #registerUsuario, #registerSenha{
     width: 250px;
     height: 30px;
     margin: 10px auto;

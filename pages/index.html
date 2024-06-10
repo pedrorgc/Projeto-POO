@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bem vindo(a) ao Game Store</title>
+    <title>Game Store</title>
     <link rel="stylesheet" href="style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,21 +27,19 @@
                     <p>JÁ SOU USUÁRIO DA</p>
                     <h2>Game Store</h2>
                     <div class="box">
-                        <form>
-                            <label for="nome">Usuário</label><br>
-                            <input type="text" name="user" id="usuario"><br>
-                            <label for="senha">Senha</label><br>
-                            <input type="password" name="password" id="senha">
-                            <br><br>
-                            <input type="submit" name="log" class="login" value="Entrar" onclick="logar(); return false">
+                        <form id="loginForm">
+                            <label for="loginUsuario">Usuário</label><br>
+                            <input type="text" id="loginUsuario" name="user"><br>
+                            <label for="loginSenha">Senha</label><br>
+                            <input type="password" id="loginSenha" name="password"><br><br>
+                            <input type="submit" value="Entrar" class="login">
                         </form>
                     </div>
-                    <p style="text-align: center;"><span id="alerta"></span></p>
                 </section>
             </main>
         </div>
     </div>
 
-    <script src="script/script.js"></script>
+    <script src="script/login.js"></script>
 </body>
 </html>
