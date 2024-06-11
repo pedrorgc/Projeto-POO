@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+
     class User {
         constructor(nome, email, usuario, senha) {
             this.nome = nome;
@@ -39,8 +39,8 @@ document.addEventListener('DOMContentLoaded', function() {
             this.senha = novaSenha;
         }
     }
-
-    });
+document.addEventListener('DOMContentLoaded', function() {
+   
 
     const users = JSON.parse(localStorage.getItem('users')) || [];
 
@@ -63,5 +63,5 @@ document.addEventListener('DOMContentLoaded', function() {
         alert('Cadastro bem-sucedido!');
 
         document.getElementById('registerForm').reset();
-
     });
+});
