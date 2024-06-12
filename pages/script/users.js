@@ -1,4 +1,3 @@
-
     class User {
         constructor(nome, email, usuario, senha) {
             this.nome = nome;
@@ -44,7 +43,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const users = JSON.parse(localStorage.getItem('users')) || [];
 
-    // Cadastro de usuário
     document.getElementById('registerForm').addEventListener('submit', function(event) {
         event.preventDefault();
 
@@ -56,7 +54,6 @@ document.addEventListener('DOMContentLoaded', function() {
         const newUser = new User(nome, email, usuario, senha);
         users.push(newUser);
 
-        // Armazenar no localStorage
         localStorage.setItem('users', JSON.stringify(users));
 
         console.log(users);

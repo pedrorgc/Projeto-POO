@@ -20,7 +20,7 @@
             <h3>Gerencie seus produtos abaixo</h3>
             <div class="container">
                 <div class="box">
-                    <form>
+                    <form id="registerProdForm">
                         <label for="produto">Produto:</label>
                         <br>
                         <input type="text" id="produto">
@@ -37,7 +37,7 @@
                         <br>
                         <input type="number" id="valor">
                         <br><br>
-                        <input type="submit" value="Cadastrar" id="cadastrar" onclick="validarProduto('produto', 'plataforma', 'quantidade', 'valor')">
+                        <input type="submit" value="Cadastrar" id="cadastrar">
                         <br><br>
                         <input type="reset" value="Limpar" id="limpaForm">
                         <br><br>
@@ -49,6 +49,6 @@
     </main>
 
     
-    <script src="script/cadastro.js"></script>
+    <script src="script/product.js"></script>
 </body>
 </html>
