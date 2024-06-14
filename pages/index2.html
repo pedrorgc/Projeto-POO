@@ -1,54 +1,62 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estoque</title>
-    <link rel="stylesheet" href="style/style2.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estoque</title>
+  <link rel="stylesheet" href="style/style4.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 </head>
-<body>
-    <header>
-        <h1>Game Store Manager</h1>
-        <p>Gerenciamento De Estoque</p>
-    </header>
-    <hr size="1">
-    <main>
-        <section>
-            <h3>Gerencie seus produtos abaixo</h3>
-            <div class="container">
-                <div class="box">
-                    <form id="registerProdForm">
-                        <label for="produto">Produto:</label>
-                        <br>
-                        <input type="text" id="produto">
-                        <br>
-                        <label for="plataforma">Plataforma:</label>
-                        <br>
-                        <input type="text" id="plataforma">
-                        <br>
-                        <label for="quantidade">Quantidade:</label>
-                        <br>
-                        <input type="number" id="quantidade">
-                        <br>
-                        <label for="valor">Valor:</label>
-                        <br>
-                        <input type="number" id="valor">
-                        <br><br>
-                        <input type="submit" value="Cadastrar" id="cadastrar">
-                        <br><br>
-                        <input type="reset" value="Limpar" id="limpaForm">
-                        <br><br>
-                        <input type="button" value="Estoque" id="verEstoque" onclick="window.open('estoque.html')">
-                    </form>
-                </div>
-            </div>
-        </section>
-    </main>
 
-    
-    <script src="script/product.js"></script>
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>CADASTRO DE PRODUTOS</h2>
+      <button onclick="openModal()" id="new">Incluir</i></button>
+    </div>
+
+    <div class="divTable">
+      <table>
+        <thead>
+          <tr>
+            <th>PRODUTO</th>
+            <th>PLATAFORMA</th>
+            <th>QUANTIDADE</th>
+            <th>VALOR</th>
+            <th class="acao">EDITAR</th>
+            <th class="acao">EXCLUIR</th>
+          </tr>
+        </thead>
+        <tbody id="productsList">
+        </tbody>
+      </table>
+    </div>
+
+    <div class="modal-container">
+      <div class="modal">
+        <form id="registerProdForm">
+          <label for="produto">Produto</label>
+          <input id="produto" type="text" required />
+  
+          <label for="plataforma">Plataforma</label>
+          <input id="plataforma" type="text" required />
+  
+          <label for="quantidade">Quantidade</label>
+          <input id="quantidade" type="number" required />
+          <label for="valor">Valor</label>
+          <input id="valor" type="number" required />
+          <button id="btnSalvar">Salvar</button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+  <script src="script/new.js"></script>
 </body>
+
 </html>
